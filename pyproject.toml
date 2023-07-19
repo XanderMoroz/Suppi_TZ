@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "suppi-tz"
+version = "0.1.0"
+description = ""
+authors = ["xander <moroz070688@gmail.com>"]
+readme = "README.md"
+packages = [{include = "suppi_tz"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
